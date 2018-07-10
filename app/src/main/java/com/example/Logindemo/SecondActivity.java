@@ -1,7 +1,9 @@
-package com.example.a1login;
+package com.example.Logindemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.a1login.R;
 
 public class SecondActivity extends AppCompatActivity {
 

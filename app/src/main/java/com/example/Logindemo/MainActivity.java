@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.a1login.R;
+import com.example.Logindemo.R;
 
 public class MainActivity extends AppCompatActivity {
 

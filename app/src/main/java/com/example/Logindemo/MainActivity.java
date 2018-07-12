@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 validate(Name.getText().toString(), Password.getText().toString());
             }
         });
@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     progressDialog.dismiss();
-                    startActivity(new Intent(MainActivity.this, SecondActivity.class));
                     Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, SecondActivity.class));
                 }else {
                     Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                     counter--;

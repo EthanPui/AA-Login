@@ -1,2 +1,2 @@
-# Login-AA
-My first attempt at making a AA that allows login
+# Following Series App
+

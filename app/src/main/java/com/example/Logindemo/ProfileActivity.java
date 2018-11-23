@@ -1,5 +1,6 @@
 package com.example.Logindemo;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -34,6 +35,7 @@ public class ProfileActivity extends AppCompatActivity {
     private FirebaseStorage firebaseStorage;
 
 
+    @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
